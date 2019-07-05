@@ -5,11 +5,11 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace SyncfusionASPNETApplication20
+namespace SyncfusionASPNETApplication3
 {
     public class BundleConfig
     {
-        // For more information on Bundling, visit https://go.microsoft.com/fwlink/?LinkID=303951
+        // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkID=303951
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
@@ -30,9 +30,17 @@ namespace SyncfusionASPNETApplication20
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));
 
             // Use the Development version of Modernizr to develop with and learn from. Then, when you’re
-            // ready for production, use the build tool at https://modernizr.com to pick only the tests you need
+            // ready for production, use the build tool at http://modernizr.com to pick only the tests you need
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                             "~/Scripts/modernizr-*"));
+
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+                "respond",
+                new ScriptResourceDefinition
+                {
+                    Path = "~/Scripts/respond.min.js",
+                    DebugPath = "~/Scripts/respond.js",
+                });
         }
     }
 }

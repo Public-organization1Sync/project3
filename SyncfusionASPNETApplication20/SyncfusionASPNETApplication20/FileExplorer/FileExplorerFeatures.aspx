@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" Title="FileExplorer" AutoEventWireup="true" CodeBehind="FileExplorerFeatures.aspx.cs" Inherits="SyncfusionASPNETApplication20.FileExplorerFeatures" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" Title="FileExplorer" AutoEventWireup="true" CodeBehind="FileExplorerFeatures.aspx.cs" Inherits="SyncfusionASPNETApplication3.FileExplorerFeatures" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <h2>FileExplorer Features:</h2>
 <br />
@@ -7,7 +7,7 @@
 <li> API</li>
 <li> Keyboard Interaction</li>
 <li> Custom Tool</li>
-<li> Theme - Flat-Lime-Dark</li>
+<li> Theme - Flat-Azure</li>
 <br/>
      <script src='<%= Page.ResolveClientUrl("~/Scripts/ej/i18n/ej.culture.en-US.min.js")%>' type="text/javascript"></script>
 			<script src='<%= Page.ResolveClientUrl("~/Scripts/ej/l10n/ej.localetexts.en-US.min.js")%>' type="text/javascript"></script>

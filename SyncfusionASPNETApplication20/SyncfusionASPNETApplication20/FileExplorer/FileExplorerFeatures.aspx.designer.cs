@@ -6,7 +6,7 @@
 //     the code is regenerated. 
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace SyncfusionASPNETApplication20{
+namespace SyncfusionASPNETApplication3{
     public partial class FileExplorerFeatures {
         /// <summary>
         /// fileexplorer control.

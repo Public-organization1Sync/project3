@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="uploadFiles.ashx.cs" Class="SyncfusionASPNETApplication20.FileExplorer.uploadFiles" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="uploadFiles.ashx.cs" Class="SyncfusionASPNETApplication3.FileExplorer.uploadFiles" %>
