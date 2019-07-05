@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SyncfusionASPNETApplication3 {
+namespace SyncfusionASPNETApplication27 {
     
     
     public partial class ViewSwitcher {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-namespace SyncfusionASPNETApplication3
+namespace SyncfusionASPNETApplication27
 {
     public partial class FileExplorerFeatures : System.Web.UI.Page
     {

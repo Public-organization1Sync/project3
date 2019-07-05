@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
-namespace SyncfusionASPNETApplication3.FileExplorer
+namespace SyncfusionASPNETApplication27.FileExplorer
 {
     /// <summary>
     /// Summary description for uploadFiles

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Syncfusion.JavaScript;
 
-namespace SyncfusionASPNETApplication3.FileExplorer
+namespace SyncfusionASPNETApplication27.FileExplorer
 {
     /// <summary>
     /// Summary description for downloadFile
